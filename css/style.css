@@ -1,6 +1,30 @@
 body {
   margin: 0;
+}
+
+label, input, fieldset {
+  margin-top: 10px;
+}
+
+fieldset {
+  border-width: 2px;
+  border-color: black;
+}
+
+#h1Index, iframe {
   text-align: center;
+}
+
+#indexImg {
+  border-radius: 50%;
+}
+
+option, select {
+  background-color: lightgray;
+}
+
+figcaption {
+  border-style: dotted;
 }
 
 #if {
@@ -30,49 +54,27 @@ body {
   text-decoration: none;
 }
 
-.dropbtn {
-  color: white;
-  background-color: #282828;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  right: 0;
-  background-color: #f9f9f9;
-  color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content #dropdown-link {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
 
 .menuLink:hover {
   background-color: red;
 }
 
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
+#submit {
+  border: 0;
+  width: 100%;
+  color: white;
+  background-color: green;
+  padding: 15px;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+ul, li {
+  margin-left: 0;
+  margin-bottom: 10px;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: red;
+.entrar {
+  border: 0;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+  padding: 10px;
 }
