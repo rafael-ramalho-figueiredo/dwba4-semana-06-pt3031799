@@ -16,9 +16,14 @@ fieldset {
 }
 
 #indexImg {
+  display: block;
   border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+}
+
+iframe {
+  display: block;
+  margin: auto;
 }
 
 option, select {
